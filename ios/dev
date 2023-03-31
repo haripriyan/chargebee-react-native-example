@@ -1,0 +1,1 @@
+npm WARN config `_auth`, `_authToken`, `username` and `_password` must be scoped to a registry. see `npm help npmrc` for more information.
