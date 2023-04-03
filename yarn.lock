@@ -765,10 +765,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chargebee/react-native-chargebee@^2.0.0-beta.0":
-  version "2.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@chargebee/react-native-chargebee/-/react-native-chargebee-2.0.0-beta.0.tgz#15477fa0b98c7b614eeb272d52957285b2102d19"
-  integrity sha512-LlBBFSCehSH60HVlrC0iOVz4Xl4iQ19thwgddTqTu+y9ojB9ycZRZe0L10u6a8bnF+jX/btufh+tPUIXIHni4A==
+"@chargebee/react-native-chargebee@2.0.0-beta.1":
+  version "2.0.0-beta.1"
+  resolved "https://registry.npmjs.org/@chargebee/react-native-chargebee/-/react-native-chargebee-2.0.0-beta.1.tgz#7296020c2a9b0ab069526c6dd4737a0574c6aa1a"
+  integrity sha512-8/AgBNMvytN6aCDoJUrKr1jJ+njNq0AfeTdpPmYWPiPXcK0TaYn2TGVHH8MIFHK/MAM1Io4QIhm9s37XWvwzHg==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
