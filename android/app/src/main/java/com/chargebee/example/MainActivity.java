@@ -1,4 +1,4 @@
-package com.awesomeproject;
+package com.chargebee.example;
 
 import com.facebook.react.ReactActivity;
 
