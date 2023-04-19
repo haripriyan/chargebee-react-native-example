@@ -1,7 +1,7 @@
 PODS:
   - boost (1.76.0)
   - Chargebee (1.0.18)
-  - ChargebeeReactNative (2.0.0-beta.1):
+  - ChargebeeReactNative (2.0.0-beta.2):
     - Chargebee (= 1.0.18)
     - React-Core
   - CocoaAsyncSocket (7.6.5)
@@ -502,7 +502,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: a7c83b31436843459a1961bfd74b96033dc77234
   Chargebee: 58a74fe76996f9c21d94c2f6ee0d4938a47aaac2
-  ChargebeeReactNative: 94cb0d9e96c86d1a4987fd3f28797cbb57647624
+  ChargebeeReactNative: fc463f848d76b82b2fab304288789886500a3cf3
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
   FBLazyVector: 74b042924fe14da854ac4e87cefc417f583b22b1

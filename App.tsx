@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 
 import { StyleSheet, View, Button } from 'react-native';
-import Chargebee, { AuthenticationDetail, Product, ProductIdentifiersRequest } from '@chargebee/react-native-chargebee';
+import Chargebee, { AuthenticationDetail, Product, ProductIdentifiersRequest, SubscriptionsRequest } from '@chargebee/react-native-chargebee';
 
 export default function App() {
   const site = 'cb-imay-test';
-  const apiKey = 'test_AVrzSIux7PHMmiMdi7ixAiqoVYE9jHbz';
-  const iOsSdkKey = 'cb-njjoibyzbrhyjg7yz4hkwg2ywq';
-  const androidSdkKey = 'cb-wpkheixkuzgxbnt23rzslg724y';
+  const apiKey = '++';
+  const iOsSdkKey = '++';
+  const androidSdkKey = '++';
 
   let productIdentifiers: string[] = [];
   let products: Product[] = [];
@@ -53,6 +53,17 @@ export default function App() {
     }
   };
 
+  const retrieveSubscription = async () => {
+    try {
+      const subscriptionRequests: SubscriptionsRequest = { customer_id: 'qwerty' };
+      const result = await Chargebee.retrieveSubscriptions(subscriptionRequests);
+      products = result;
+      console.log(result);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   const configure = async (site: string, apiKey: string, androidSdkKey: string, iOsSdkKey: string) => {
 
     try {
@@ -62,7 +73,7 @@ export default function App() {
         androidSdkKey: androidSdkKey,
         iOsSdkKey: iOsSdkKey,
       });
-      console.log('SDK Configuration completed:', configResult);
+      console.log('SDK Configuration completeddd:', configResult);
     } catch (error) {
       console.error('SDK Configuration failed', error);
       };
@@ -80,6 +91,7 @@ export default function App() {
       />
       <Button title="Retrieve Products" onPress={retrieveProducts} />
       <Button title="Purchase Product" onPress={purchaseProduct} />
+      <Button title="Retrieve Subscription" onPress={retrieveSubscription} />
     </View>
   );
 }
