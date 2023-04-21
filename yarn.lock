@@ -767,10 +767,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chargebee/react-native-chargebee@2.0.0-beta.3":
-  version "2.0.0-beta.3"
-  resolved "https://registry.npmjs.org/@chargebee/react-native-chargebee/-/react-native-chargebee-2.0.0-beta.3.tgz#c78c46dd3304f024601a1f22691ea76ea372949b"
-  integrity sha512-4pmBiVb1F+7UGm+aFG2vsjW/f9uRH42AqXkfgbyqgvSarluW7xyD4g+fDgJaHNW65bVEOgmDSHOkBfp3KlY3HA==
+"@chargebee/react-native-chargebee@2.0.0-beta.4":
+  version "2.0.0-beta.4"
+  resolved "https://hptest1.jfrog.io/artifactory/api/npm/npm/@chargebee/react-native-chargebee/-/@chargebee/react-native-chargebee-2.0.0-beta.4.tgz#5b147353b8d56970b5b381d7575844cee3ebdb05"
+  integrity sha512-hqnNJImIT6MSuNCDmAOW3S/VOCbPmdre4GU1pUOq0VvaY/qYDUXiZjgD/XeQwZs7/q9ETkbA3g8p4c9Ttz1HBQ==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
